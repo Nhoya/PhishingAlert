@@ -1,0 +1,3 @@
+Domains = [ "gmail", "paypal", "posteitaliane", "amazon", "facebook", "icloud", "apple", "appstore", "itunes", "outlook", "hotmail", "twitter", "whatsapp", "telegram", "github", "netflix" ]
+
+tlds = ["ga", "tk", "gq" , "ml", "cf", "xyz", "pw", "cc", ".club"]
