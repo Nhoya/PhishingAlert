@@ -5,6 +5,8 @@ NOTE: this is a (more rough and simplistic) fork of [x0rz's phishing_catcher](ht
 
 PhishingAlert catches malicious phishing domain names using certstream and sends the report via telegram.
 
+![Proof of Work](https://i.imgur.com/oWf2ZAw.png)
+
 ## How to
 - [Create a telegram bot](https://core.telegram.org/bots)
 - Set `BOT_TOKEN` env var with the APIKEY of your bot

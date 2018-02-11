@@ -29,7 +29,7 @@ func main() {
 		fmt.Println("Unable to read config file")
 		os.Exit(1)
 	}
-	fmt.Println("[+] Starting scraping")
+	fmt.Println("[+] Scraping")
 	stream, errStream := certstream.CertStreamEventStream(true)
 	i := 0
 	for {

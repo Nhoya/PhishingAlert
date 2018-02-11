@@ -22,7 +22,7 @@ func sendTelegramNotify(domainsSet mapset.Set) {
 		for dom := range domainsIterator.C {
 			stuff := strings.Split(dom.(string), ":")
 			fmt.Print("\r" + message)
-			message = message + "Suspicious domain : " + stuff[0] + " (score:" + stuff[1] + ")\n"
+			message = message + "Suspicious domain: " + stuff[0] + " (score:" + stuff[1] + ")\n"
 		}
 	}
 	chatID, _ := strconv.ParseInt(os.Getenv("TG_CHAT"), 10, 64)
