@@ -1,9 +1,9 @@
 # PhishingAlert
 A Golang fork of x0rz's phishing_cather linked to a Telegram bot
 
-NOTE: this is a (more rough and simplistic) fork of [x0rz's phishing_catcher](https://github.com/x0rz/phishing_catcher) all the credits for this project goes to him.
+**NOTE**: this is a (more rough and simplistic) fork of [x0rz's phishing_catcher](https://github.com/x0rz/phishing_catcher) all the credits for this project goes to him.
 
-PhishingAlert catches malicious phishing domain names using certstream and sends the report via telegram.
+`PhishingAlert` catches malicious phishing domain names using certstream and sends the report via telegram.
 
 ![Proof of Work](https://i.imgur.com/oWf2ZAw.png)
 
